@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music For Everyone</title>
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png" />
+    <link rel="icon" sizes="16x16" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container border flex items-center bg-black">
+        <div class="left">
+            <div class="home  softborders10 bg-grey">
+                <div class="logo">
+                <img src="logo.svg" width="100vw" alt="Spotify" class="invert">
+                <img src="https://cdn-icons-png.flaticon.com/512/2976/2976286.png" width="25px" alt="" title="" class="img-small invert cross">
+            </div>
+                <ul>
+                    <li class="pointer"><img src="homeicon.svg" alt="Home" class="invert ">Home</li>
+                    <li class="pointer"><img src="searchicon.svg" alt="Search" class="invert ">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey softborders10">
+                <div class="heading">
+                    <div class="libraryheading">
+                        <div><img src="library.svg" alt="library" class="invert headingimg"></div>
+                        <span>Your library</span>
+                    </div>
+                        <div><img src="addsymbol.svg" alt="Add library" class="invert addlibrary"></div>
+                        </div>
+                <div class="songlist">
+                        <ul>
+                        </ul>
+                        </div>
+                <div class="footer">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span class="pointer">Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span class="pointer">Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span class="pointer">Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span class="pointer">Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span class="pointer">About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span class="pointer">Accessibility</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="right ">
+            <div class="header bg-grey">
+                <div class="nav">
+                    <div class="hamburger">
+                        <img src="   https://cdn-icons-png.flaticon.com/512/7710/7710488.png "  alt="" title="" class="img-small hamburger">
+                    </div>
+                    <img src="   https://cdn-icons-png.flaticon.com/512/6020/6020596.png " alt="" title=""
+                        class="img-small pointer">
+                    <img src="   https://cdn-icons-png.flaticon.com/512/6020/6020205.png " alt="" title=""
+                        class="img-small pointer">
+                </div>
+                <div class="button bg-grey">
+                    <button class="bg-grey signup">Sign up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <div class="spotifyplaylists">
+                <h1>Spotify Playlists</h1>
+            </div>
+            <div class="cardcontainers">
+                
+                </div>
+            <div class="playbar">
+                <div class="songoperation">
+                    <div class="songinfo">
+                        No Song Played
+                    </div>
+                    <div class="centrebuttons">
+                        <div class="songbuttons">
+                            <img id='previous'src="https://cdn-icons-png.flaticon.com/512/467/467147.png "  alt="Previous" >
+                            <img id='play' src="https://cdn-icons-png.flaticon.com/512/467/467143.png "  alt="Play">
+                            <img id="next" src="https://cdn-icons-png.flaticon.com/512/467/467137.png " alt="Next">
+                        </div>
+                        <div class="seekbar">
+                            <div class="played">
+                            </div>
+                            <div class="circle">
+                    </div>
+                            
+                        </div>
+                    </div>
+                    <div class="timevolumeinfo">
+                        <div class="songtime">
+                        </div>
+                        <div class="volumeinfo">
+                            <div class="volumebar"></div>
+                            <div class="volumecircle">
+                            </div>
+                        </div>
+                        <div class="volumeimage">
+                            <img src="volumebutton3.png" width="30px" class="invert">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
